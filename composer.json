@@ -1,9 +1,10 @@
 {
-  "name": "haffner/jh_captcha",
-  "description": "Use Google reCAPTCHA (v2/v3) in your own TYPO3 extensions, EXT:form, EXT:powermail and EXT:formhandler as spam protection.",
+  "name": "jeremyx9/jh_captcha",
+  "description": "Use Google reCAPTCHA (v2/v3) in your own TYPO3 extensions, EXT:form, EXT:powermail and EXT:formhandler as spam protection. (Fork of haffner/jh_captcha)",
   "type": "typo3-cms-extension",
   "keywords": ["TYPO3 CMS", "jh_captcha", "Captcha", "reCAPTCHA"],
   "license": "GPL-2.0",
+  "version": "12.4",
   "authors": [
     {
       "name": "Jan Haffner",
@@ -17,7 +18,7 @@
     "docs": "https://docs.typo3.org/typo3cms/extensions/jh_captcha/"
   },
   "require": {
-    "typo3/cms-core": "^10.4 || ^11.5"
+    "typo3/cms-core": "^10.4 || ^11.5 || ^12.4"
   },
   "replace": {
     "typo3-ter/jh_captcha": "self.version"
